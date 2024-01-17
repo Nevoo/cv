@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bamberg",
   about: "Experienced Full Stack Developer with expertise in Flutter and React",
   summary:
-    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often including a Node.js backend. Skilled in leading development teams and working with various clients.",
+    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often including a Node.js backend.",
   avatarUrl: "profilepic.png",
   personalWebsiteUrl: "https://luehrs.dev",
   contact: {
