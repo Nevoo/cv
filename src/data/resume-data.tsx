@@ -10,9 +10,10 @@ export const RESUME_DATA = {
   initials: "RL",
   location: "Bamberg, Germany, CET",
   locationLink: "https://www.google.com/maps/place/Bamberg",
-  about: "Experienced Full Stack Developer with expertise in Flutter and React",
+  about:
+    "Experienced Full Stack Developer with expertise in Flutter and React. Hobby Photographer and Videographer.",
   summary:
-    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often including a Node.js backend.",
+    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often including a Node.js backend.\n\nI am a passionate photographer and videographer and love to combine my coding skills with my creative skills.",
   avatarUrl: "profilepic.png",
   personalWebsiteUrl: "https://luehrs.dev",
   contact: {
@@ -96,7 +97,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "My Personal Portfolio",
-      techStack: ["Website", "Three.js", "React"],
+      techStack: ["WIP", "Website", "Three.js", "React"],
       description:
         "A Three.js web experience to showcase my photo-/ and videography and coding projects.",
       link: {
