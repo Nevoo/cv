@@ -74,7 +74,7 @@ export const RESUME_DATA = {
     },
     {
       company: "fewclicks",
-      link: "https://fewclicks.example.com",
+      link: "https://fewclicks.io",
       badges: ["Intern"],
       title: "Development Intern",
       start: "2017",
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "My Personal Portfolio",
-      techStack: ["WIP", "Website", "Three.js", "React"],
+      techStack: ["Side Project", "WIP", "Website", "Three.js", "React"],
       description:
         "A Three.js web experience to showcase my photo-/ and videography and coding projects.",
       link: {
@@ -107,17 +107,23 @@ export const RESUME_DATA = {
     },
     {
       title: "Pharma Trainer",
-      techStack: ["App", "Flutter", "Dart", "Loopback.js", "Typescript"],
-      description:
-        "Learning app for pharmaceutics for medicine students. Side Project.",
+      techStack: [
+        "Side Project",
+        "App",
+        "Flutter",
+        "Dart",
+        "Loopback.js",
+        "Typescript",
+      ],
+      description: "Learning app for pharmaceutics for medicine students.",
       link: {
         label: "pharma trainer",
-        href: "https://pharmatrainer.example.com/",
+        href: "https://apps.apple.com/de/app/pharma-trainer/id6476123242",
       },
     },
     {
       title: "conia",
-      techStack: ["App", "Flutter", "Dart", "Django"],
+      techStack: ["App Team Lead", "App", "Flutter", "Dart", "Django"],
       description:
         "Connects employees of a company with each other. Built by bytabo.",
       link: {
@@ -127,11 +133,20 @@ export const RESUME_DATA = {
     },
     {
       title: "Onkobutler",
-      techStack: ["App", "Flutter", "Dart", "Node.js"],
+      techStack: ["App Team Lead", "App", "Flutter", "Dart", "Node.js"],
       description: "App for cancer patients to help them with their treatment.",
       link: {
         label: "onkobutler",
         href: "https://onkobutler.de/",
+      },
+    },
+    {
+      title: "dabeipackzettel",
+      techStack: ["App Team Lead", "App", "Flutter", "Dart"],
+      description: "App to digitize the package inserts of your medicine.",
+      link: {
+        label: "dabeipackzettel",
+        href: "https://dabeipackzettel.de/",
       },
     },
   ],
