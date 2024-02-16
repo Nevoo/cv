@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   about:
     "Experienced Full Stack Developer with expertise in Flutter and React. Hobby Photographer and Videographer.",
   summary:
-    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often including a Node.js backend.\n\nI am a passionate photographer and videographer and love to combine my coding skills with my creative skills.",
+    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often with a Node.js backend.\n\nI am a passionate photographer and videographer and love to combine my coding skills with my creative skills.",
   avatarUrl: "profilepic.png",
   personalWebsiteUrl: "https://luehrs.dev",
   contact: {
@@ -40,7 +40,6 @@ export const RESUME_DATA = {
         url: "https://www.youtube.com/channel/UCF5p-sUVFges9QqO_48eYBQ",
         icon: YouTubeIcon,
       },
-      // You can add more social links if needed
     ],
   },
   education: [
@@ -60,7 +59,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2024",
       description:
-        "Leading the Mobile Development Team at bytabo. Built apps like dabeipackzettel, conia, onkobutler. Started with development of full-stack web apps in Angular, later switched to React and backends in Node.js with MongoDB.",
+        "Leading the Mobile Development Team at bytabo. Built apps like dabeipackzettel, conia and onkobutler. Started with development of full-stack web apps in Angular, later switched to React and Flutter.",
     },
     {
       company: "bytabo",
@@ -84,15 +83,16 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
     "Flutter",
-    "React",
     "Dart",
-    "Rust",
+    "JavaScript",
+    "TypeScript",
+    "React",
     "Three.js",
     "Node.js",
+    "Go",
+    "Rust",
     "MongoDB",
-    "TypeScript",
   ],
   projects: [
     {
