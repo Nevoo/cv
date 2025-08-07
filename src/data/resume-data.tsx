@@ -30,11 +30,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/rouvenluehrs/",
         icon: LinkedInIcon,
       },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/truenevo",
-        icon: XIcon,
-      },
+      // {
+      //   name: "Twitter",
+      //   url: "https://twitter.com/truenevo",
+      //   icon: XIcon,
+      // },
       {
         name: "YouTube",
         url: "https://www.youtube.com/channel/UCF5p-sUVFges9QqO_48eYBQ",
@@ -52,12 +52,22 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Freelance App-/ Webdeveloper",
+      link: "",
+      badges: ["Self Employed"],
+      title: "Full Stack Developer",
+      start: "2025",
+      end: "now",
+      description:
+        "Started my journey as a freelancer March 2025. Realizing all kinds of projects - Apps, Landingpages or whatever you might need!",
+    },
+    {
       company: "bytabo",
       link: "https://bytabo.de",
       badges: ["Team Lead", "Photographer"],
       title: "Full Stack Developer",
       start: "2019",
-      end: "2024",
+      end: "2025",
       description:
         "Leading the Mobile Development Team at bytabo. Built apps like dabeipackzettel, conia and onkobutler. Started with development of full-stack web apps in Angular, later switched to React and Flutter.",
     },
@@ -147,6 +157,15 @@ export const RESUME_DATA = {
       link: {
         label: "dabeipackzettel",
         href: "https://dabeipackzettel.de/",
+      },
+    },
+    {
+      title: "ClaryAI",
+      techStack: ["App Team Lead", "App", "Flutter", "Dart", "Supabase"],
+      description: "AI-Relationship Advice",
+      link: {
+        label: "dabeipackzettel",
+        href: "https://apps.apple.com/de/app/clary-ai/id6745343055",
       },
     },
   ],
