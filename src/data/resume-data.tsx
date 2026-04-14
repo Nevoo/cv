@@ -8,12 +8,12 @@ import {
 export const RESUME_DATA = {
   name: "Rouven Lührs",
   initials: "RL",
-  location: "Bamberg, Germany, CET",
-  locationLink: "https://www.google.com/maps/place/Bamberg",
+  location: "World",
+  locationLink: "https://www.google.com/maps/place/Earth",
   about:
-    "Experienced Full Stack Developer with expertise in Flutter and React. Hobby Photographer and Videographer.",
+    "Full-stack developer shipping AI agents and cross-platform apps for businesses.",
   summary:
-    "Over 5 years of experience in coding full-stack applications. Specialized in building cross-platform mobile apps with Flutter and web apps with React, often with a Node.js backend.\n\nI am a passionate photographer and videographer and love to combine my coding skills with my creative skills.",
+    "Been shipping production software for 8+ years. Full-stack web (React, Angular, Node.js), cross-platform mobile with Flutter, and AI in products since 2018. Led teams from kickoff to ship along the way.\n\nWhen I'm not coding, I'm behind a camera. Photo and video are the other half of how I see the world, and most of it happens on the move. Digital nomad life, so wherever I land tends to shape what I make.\n\nThese days I run arlou, where I build custom AI agents for businesses that want to put the tech to real work.",
   avatarUrl: "profilepic.png",
   personalWebsiteUrl: "https://luehrs.dev",
   contact: {
@@ -52,14 +52,42 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "arlou",
+      link: "https://arlou.dev",
+      badges: ["Freelance", "AI Agents", "Founder"],
+      title: "Freelance Developer",
+      start: "2025",
+      end: "present",
+      description:
+        "One-person AI agent studio. I design, build, ship, and maintain custom AI agents for businesses.",
+      highlights: [
+        "Still working with Amgen on Onkobutler, a cancer patient companion app I first built during my bytabo years and now maintain freelance.",
+        "Mensorai: Chrome extension for active learning from YouTube. Research agent, video chat, RAG over a saved library, summaries and quizzes.",
+        "ClaryAI: AI-powered relationship advice app, live on the App Store.",
+        "Pharma Trainer: Flutter learning app for medical students studying pharmaceutics.",
+        "Stack: TypeScript, Node.js, React, Flutter, Python.",
+      ],
+    },
+    {
       company: "bytabo",
       link: "https://bytabo.de",
-      badges: ["Team Lead", "Photographer"],
-      title: "Full Stack Developer",
+      badges: ["Team Lead", "Full Stack", "Enterprise"],
+      title: "Full Stack Developer & Technical Project Manager",
       start: "2019",
-      end: "2024",
+      end: "2025",
       description:
-        "Leading the Mobile Development Team at bytabo. Built apps like dabeipackzettel, conia and onkobutler. Started with development of full-stack web apps in Angular, later switched to React and Flutter.",
+        "Led technical delivery on client projects across mobile (Flutter) and web (React, Angular, Node.js). Ran teams of 6 to 12 as technical project manager.",
+      highlights: [
+        "Onkobutler (Amgen, 2019–2025): cancer patient companion app. Therapy tracking, vitals journal, automated PDF reports sent to doctors. Flutter, Node.js, Firebase, MongoDB. Team of 10. Still ongoing, now freelance.",
+        "Dabeipackzettel (Dr. Pfleger, 2019–2022): digitizing pharmaceutical package inserts. Led a 12-person team over 2.5 years.",
+        "Conia (2022–2025): employee communication platform for mid-sized companies. Flutter, Django, Wagtail, Firebase. Team of 6.",
+        "LEGO Brick Flash App (2019): seasonal campaign app for LEGO promotions and coupons. Flutter, Firebase. Team of 10.",
+        "Fitness nutrition app (2020–2022): algorithmic meal recommendations for sport. Flutter, Node.js, MongoDB. Team of 10.",
+        "\"Paul\" chatbot (2019): AI chatbot searching an internal knowledge base for a healthcare client. IBM Watson, Node.js, AWS. Team of 10. My first AI work in production.",
+        "Bosch (2018): tablet-first shortcut configurator with admin panel. Angular, Node.js, MongoDB, Electron. Team of 8.",
+        "Belsana (2019): knowledge management tool for product data search. Angular, Node.js, MongoDB, ElasticSearch, Docker. Team of 7.",
+        "Brose (2019): location data visualization dashboard. Angular, Node.js, MongoDB. Team of 6.",
+      ],
     },
     {
       company: "bytabo",
@@ -69,7 +97,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2019",
       description:
-        "Started as a trainee developer where I dived deeper into web development with Angular while working on real projects.",
+        "Joined bytabo as a trainee after vocational IT training. Worked hands-on on early client projects in web and mobile before moving into a full-time developer role.",
     },
     {
       company: "fewclicks",
@@ -79,75 +107,102 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2017",
       description:
-        "Internship at fewclicks. Built a small ecommerce project with Laravel.",
+        "Internship during vocational IT training. Built a Laravel backend for an online shop and hand-coded HTML email templates.",
     },
   ],
   skills: [
     "Flutter",
     "Dart",
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
     "React",
-    "Three.js",
+    "Angular",
     "Node.js",
-    "Go",
-    "Rust",
+    "Python",
+    "Django",
+    "Claude",
+    "OpenAI",
     "MongoDB",
+    "PostgreSQL",
+    "Firebase",
+    "Docker",
+    "AWS",
+    "Azure DevOps",
+    "Three.js",
+    "Figma",
   ],
   projects: [
     {
-      title: "My Personal Portfolio",
-      techStack: ["Side Project", "WIP", "Website", "Three.js", "React"],
+      title: "arlou",
+      techStack: [
+        "Company",
+        "AI Agents",
+        "Claude",
+        "Node.js",
+        "Python",
+        "TypeScript",
+      ],
       description:
-        "A Three.js web experience to showcase my photo-/ and videography and coding projects.",
+        "One-person studio building and maintaining custom AI agents for businesses.",
       link: {
-        label: "rouvens.work",
-        href: "https://rouvens.work/",
+        label: "arlou.dev",
+        href: "https://arlou.dev",
       },
     },
     {
-      title: "Pharma Trainer",
+      title: "Mensorai",
       techStack: [
-        "Side Project",
+        "Product",
+        "Chrome Extension",
+        "RAG",
+        "Claude",
+        "TypeScript",
+      ],
+      description:
+        "Chrome extension for active learning from YouTube. Research agent, video chat, RAG over a saved library, summaries and quizzes.",
+      link: {
+        label: "mensorai.com",
+        href: "https://mensorai.com",
+      },
+    },
+    {
+      title: "Onkobutler (Amgen)",
+      techStack: [
+        "Team Lead",
         "App",
         "Flutter",
-        "Dart",
-        "Loopback.js",
-        "Typescript",
+        "Node.js",
+        "Firebase",
+        "MongoDB",
       ],
-      description: "Learning app for pharmaceutics for medicine students.",
-      link: {
-        label: "pharma trainer",
-        href: "https://apps.apple.com/de/app/pharma-trainer/id6476123242",
-      },
-    },
-    {
-      title: "conia",
-      techStack: ["App Team Lead", "App", "Flutter", "Dart", "Django"],
       description:
-        "Connects employees of a company with each other. Built by bytabo.",
-      link: {
-        label: "conia",
-        href: "https://conia.app/",
-      },
-    },
-    {
-      title: "Onkobutler",
-      techStack: ["App Team Lead", "App", "Flutter", "Dart", "Node.js"],
-      description: "App for cancer patients to help them with their treatment.",
+        "Cancer patient companion for Amgen. Therapy tracking, vitals journal, automated PDF reports sent to treating doctors. Ongoing since 2019.",
       link: {
         label: "onkobutler",
         href: "https://onkobutler.de/",
       },
     },
     {
-      title: "dabeipackzettel",
-      techStack: ["App Team Lead", "App", "Flutter", "Dart"],
-      description: "App to digitize the package inserts of your medicine.",
+      title: "Dabeipackzettel (Dr. Pfleger)",
+      techStack: ["Team Lead", "App", "Flutter", "Node.js", "Azure"],
+      description:
+        "Digitizing pharmaceutical package inserts. Led a 12-person team over 2.5 years.",
+    },
+    {
+      title: "Conia",
+      techStack: ["Team Lead", "App", "Flutter", "Django", "Firebase"],
+      description:
+        "Employee communication platform for mid-sized companies. Built at bytabo with a team of 6.",
       link: {
-        label: "dabeipackzettel",
-        href: "https://dabeipackzettel.de/",
+        label: "conia",
+        href: "https://conia.app/",
       },
+    },
+    {
+      title: "ClaryAI",
+      techStack: ["Side Project", "App", "Flutter", "AI"],
+      description:
+        "AI-powered relationship advice app, live on the App Store.",
     },
   ],
 } as const;

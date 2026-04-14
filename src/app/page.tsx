@@ -98,9 +98,26 @@ export default function Page() {
           </div>
           <Section>
             <h2 className="text-xl font-bold">About</h2>
-            <p className="text-pretty font-mono text-sm text-muted-foreground">
-              {RESUME_DATA.summary}
-            </p>
+            {RESUME_DATA.summary.split("\n\n").map((paragraph, i) => (
+              <p
+                key={i}
+                className="text-pretty font-mono text-sm text-muted-foreground"
+              >
+                {paragraph.split(/(arlou)/).map((part, j) =>
+                  part === "arlou" ? (
+                    <a
+                      key={j}
+                      href="https://arlou.dev"
+                      className="underline hover:no-underline"
+                    >
+                      arlou
+                    </a>
+                  ) : (
+                    part
+                  ),
+                )}
+              </p>
+            ))}
           </Section>
           <Section>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -135,8 +152,15 @@ export default function Page() {
                       {work.title}
                     </h4>
                   </CardHeader>
-                  <CardContent className="mt-2 text-xs">
-                    {work.description}
+                  <CardContent className="mb-6 mt-2 text-xs">
+                    <p>{work.description}</p>
+                    {"highlights" in work && work.highlights ? (
+                      <ul className="ml-4 mt-4 list-disc space-y-1 text-muted-foreground">
+                        {work.highlights.map((highlight) => (
+                          <li key={highlight}>{highlight}</li>
+                        ))}
+                      </ul>
+                    ) : null}
                   </CardContent>
                 </Card>
               );
